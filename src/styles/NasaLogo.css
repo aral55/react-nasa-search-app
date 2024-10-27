@@ -1,0 +1,25 @@
+.nasa-logo {
+  margin-top: 20px;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.nasa-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .nasa-logo {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .nasa-logo {
+        width: 90%;
+    }
+    
+}
