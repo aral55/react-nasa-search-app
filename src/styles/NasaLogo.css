@@ -10,16 +10,3 @@
   align-items: center;
   justify-content: center;
 }
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .nasa-logo {
-    height: 240px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-    .nasa-logo {
-        width: 90%;
-    }
-    
-}
