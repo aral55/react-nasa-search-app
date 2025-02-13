@@ -1,16 +1,16 @@
 import React from "react";
 import "../styles/NasaLogo.css";
 
-function NasaLogo () {
-    return (
-        <div className="nasa-log-wrapper">
-        <img
+function NasaLogo() {
+  return (
+    <div className="nasa-log-wrapper">
+      <img
         className="nasa-logo"
-        src="https://www.nasa.gov/wp-content/uploads/2023/04/cropped-nasa-logo-wallpaper-300x300.jpeg"
+        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
         alt="nasa logo"
-        />
-        </div>
-    );
+      />
+    </div>
+  );
 }
 
 export default NasaLogo;
